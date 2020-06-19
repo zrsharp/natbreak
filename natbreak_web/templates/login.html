@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登陆</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/materialize.min.css">
+  <link rel="stylesheet" href="/static/css/tooplate.css">
+</head>
+
+<body id="login">
+  <div class="container">
+    <div class="row tm-register-row tm-mb-35">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-login-l">
+        <form id="login-form" class="tm-bg-black p-5 h-100">
+          <div class="input-field">
+            <input placeholder="用户名" id="username" name="username" type="text" class="validate">
+          </div>
+          <div class="input-field mb-5">
+            <input placeholder="密码" id="password" name="password" type="password" class="validate">
+          </div>
+          <div class="tm-flex-lr">
+            <a href="../forget_password" class="white-text small">忘记密码?</a>
+            <button id="login-btn" type="submit" class="waves-effect btn-large btn-large-white px-4 black-text rounded-0">登陆</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-login-r">
+        <header class="font-weight-light tm-bg-black p-5 h-100">
+          <h3 class="mt-0 text-white font-weight-light">登陆帐号</h3>
+          <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          <p class="mb-0">Vestibulum neque neque, porttitor quis lacinia eu, iaculis id dui. Mauris quis velit lectus.</p>
+        </header>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ml-auto mr-0 text-center">
+        <a href="../signup" class="waves-effect btn-large btn-large-white px-4 black-text rounded-0">注册帐号</a>
+      </div>
+    </div>
+    <footer class="row tm-mt-big mb-3">
+      <div class="col-xl-12 text-center">
+        <p class="d-inline-block tm-bg-black white-text py-2 tm-px-5">
+          Copyright &copy; 2020 Zero Club - 鲁ICP备20005859号-1
+          <a href="http://zerosharp.top" target="_blank" title="zero club">Zero Club</a> - Join us <a href="http://zerosharp.top" title="零度俱乐部" target="_blank">零度俱乐部</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/static/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="/static/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('select').formSelect();
+    });
+  </script>
+  <script src="/static/js/login.js"></script>
+</body>
+
+</html>

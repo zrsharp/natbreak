@@ -1,0 +1,392 @@
+31-May-2020 14:42:11.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+31-May-2020 14:42:11.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+31-May-2020 14:42:11.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+31-May-2020 14:42:11.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-May-2020 14:42:11.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.6.15-arch1-1
+31-May-2020 14:42:11.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-May-2020 14:42:11.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-b09
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2020 14:42:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-May-2020 14:42:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2020 14:42:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+31-May-2020 14:42:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+31-May-2020 14:42:11.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+31-May-2020 14:42:11.760 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+31-May-2020 14:42:11.855 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-May-2020 14:42:11.866 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-May-2020 14:42:11.878 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 598 ms
+31-May-2020 14:42:11.901 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-May-2020 14:42:11.901 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+31-May-2020 14:42:11.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+31-May-2020 14:42:12.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [189] ms
+31-May-2020 14:42:12.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+31-May-2020 14:42:12.314 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [217] ms
+31-May-2020 14:42:12.314 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+31-May-2020 14:42:12.331 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [17] ms
+31-May-2020 14:42:12.331 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+31-May-2020 14:42:12.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [10] ms
+31-May-2020 14:42:12.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+31-May-2020 14:42:12.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [16] ms
+31-May-2020 14:42:12.360 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-May-2020 14:42:12.365 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 487 ms
+31-May-2020 15:49:54.373 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-May-2020 15:49:54.387 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-May-2020 15:49:54.429 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-May-2020 15:49:54.431 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Jun-2020 20:58:29.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+12-Jun-2020 20:58:29.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+12-Jun-2020 20:58:29.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+12-Jun-2020 20:58:29.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Jun-2020 20:58:29.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.6.15-arch1-1
+12-Jun-2020 20:58:29.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Jun-2020 20:58:29.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk
+12-Jun-2020 20:58:29.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.7+10
+12-Jun-2020 20:58:29.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Jun-2020 20:58:29.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+12-Jun-2020 20:58:29.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+12-Jun-2020 20:58:29.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Jun-2020 20:58:29.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Jun-2020 20:58:29.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Jun-2020 20:58:29.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+12-Jun-2020 20:58:29.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Jun-2020 20:58:29.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Jun-2020 20:58:29.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Jun-2020 20:58:29.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Jun-2020 20:58:29.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Jun-2020 20:58:29.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+12-Jun-2020 20:58:29.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+12-Jun-2020 20:58:29.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+12-Jun-2020 20:58:29.408 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Jun-2020 20:58:29.459 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 20:58:29.486 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Jun-2020 20:58:29.500 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 637 ms
+12-Jun-2020 20:58:29.556 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Jun-2020 20:58:29.556 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+12-Jun-2020 20:58:29.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+12-Jun-2020 20:58:29.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [419] ms
+12-Jun-2020 20:58:29.988 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+12-Jun-2020 20:58:30.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [277] ms
+12-Jun-2020 20:58:30.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+12-Jun-2020 20:58:30.294 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [27] ms
+12-Jun-2020 20:58:30.294 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+12-Jun-2020 20:58:30.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [14] ms
+12-Jun-2020 20:58:30.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+12-Jun-2020 20:58:30.330 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [22] ms
+12-Jun-2020 20:58:30.334 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 20:58:30.352 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 851 ms
+13-Jun-2020 00:42:26.334 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jun-2020 00:42:26.354 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Jun-2020 00:42:26.406 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jun-2020 00:42:26.408 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jun-2020 20:03:57.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+13-Jun-2020 20:03:57.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+13-Jun-2020 20:03:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+13-Jun-2020 20:03:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jun-2020 20:03:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.7.2-arch1-1
+13-Jun-2020 20:03:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jun-2020 20:03:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk
+13-Jun-2020 20:03:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.7+10
+13-Jun-2020 20:03:57.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Jun-2020 20:03:57.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+13-Jun-2020 20:03:57.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+13-Jun-2020 20:03:57.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Jun-2020 20:03:57.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Jun-2020 20:03:57.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Jun-2020 20:03:57.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+13-Jun-2020 20:03:57.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jun-2020 20:03:57.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jun-2020 20:03:57.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jun-2020 20:03:57.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jun-2020 20:03:57.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jun-2020 20:03:57.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+13-Jun-2020 20:03:57.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+13-Jun-2020 20:03:57.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+13-Jun-2020 20:03:57.510 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Jun-2020 20:03:57.566 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jun-2020 20:03:57.589 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jun-2020 20:03:57.608 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 659 ms
+13-Jun-2020 20:03:57.670 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Jun-2020 20:03:57.670 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+13-Jun-2020 20:03:57.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+13-Jun-2020 20:03:57.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [215] ms
+13-Jun-2020 20:03:57.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+13-Jun-2020 20:03:58.328 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [429] ms
+13-Jun-2020 20:03:58.328 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+13-Jun-2020 20:03:58.353 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [25] ms
+13-Jun-2020 20:03:58.353 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+13-Jun-2020 20:03:58.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [17] ms
+13-Jun-2020 20:03:58.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+13-Jun-2020 20:03:58.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [33] ms
+13-Jun-2020 20:03:58.407 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jun-2020 20:03:58.412 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 803 ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2020 20:08:30.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+17-Jun-2020 20:08:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+17-Jun-2020 20:08:30.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+17-Jun-2020 20:08:30.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Jun-2020 20:08:30.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.7.2-arch1-1
+17-Jun-2020 20:08:30.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Jun-2020 20:08:30.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk
+17-Jun-2020 20:08:30.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.7+10
+17-Jun-2020 20:08:30.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Jun-2020 20:08:30.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+17-Jun-2020 20:08:30.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+17-Jun-2020 20:08:30.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jun-2020 20:08:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jun-2020 20:08:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2020 20:08:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+17-Jun-2020 20:08:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2020 20:08:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jun-2020 20:08:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jun-2020 20:08:30.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jun-2020 20:08:30.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jun-2020 20:08:30.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+17-Jun-2020 20:08:30.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+17-Jun-2020 20:08:30.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+17-Jun-2020 20:08:30.409 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Jun-2020 20:08:30.453 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2020 20:08:30.477 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Jun-2020 20:08:30.489 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 784 ms
+17-Jun-2020 20:08:30.547 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jun-2020 20:08:30.547 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+17-Jun-2020 20:08:30.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+17-Jun-2020 20:08:30.935 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [373] ms
+17-Jun-2020 20:08:30.935 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+17-Jun-2020 20:08:31.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [409] ms
+17-Jun-2020 20:08:31.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+17-Jun-2020 20:08:31.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [30] ms
+17-Jun-2020 20:08:31.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+17-Jun-2020 20:08:31.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [53] ms
+17-Jun-2020 20:08:31.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+17-Jun-2020 20:08:31.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [91] ms
+17-Jun-2020 20:08:31.536 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jun-2020 20:08:31.549 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1059 ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jun-2020 04:04:14.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+18-Jun-2020 04:04:14.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+18-Jun-2020 04:04:14.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+18-Jun-2020 04:04:14.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jun-2020 04:04:14.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.7.2-arch1-1
+18-Jun-2020 04:04:14.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jun-2020 04:04:14.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk
+18-Jun-2020 04:04:14.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.7+10
+18-Jun-2020 04:04:14.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jun-2020 04:04:14.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 04:04:14.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 04:04:14.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jun-2020 04:04:14.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jun-2020 04:04:14.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+18-Jun-2020 04:04:14.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Jun-2020 04:04:14.335 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jun-2020 04:04:14.359 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jun-2020 04:04:14.372 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 645 ms
+18-Jun-2020 04:04:14.421 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jun-2020 04:04:14.422 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+18-Jun-2020 04:04:14.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+18-Jun-2020 04:04:14.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [373] ms
+18-Jun-2020 04:04:14.809 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+18-Jun-2020 04:04:15.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [428] ms
+18-Jun-2020 04:04:15.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+18-Jun-2020 04:04:15.261 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [24] ms
+18-Jun-2020 04:04:15.261 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+18-Jun-2020 04:04:15.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [25] ms
+18-Jun-2020 04:04:15.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+18-Jun-2020 04:04:15.304 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [18] ms
+18-Jun-2020 04:04:15.307 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jun-2020 04:04:15.315 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 942 ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jun-2020 15:08:21.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+18-Jun-2020 15:08:21.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+18-Jun-2020 15:08:21.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+18-Jun-2020 15:08:21.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jun-2020 15:08:21.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.7.2-arch1-1
+18-Jun-2020 15:08:21.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jun-2020 15:08:21.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk
+18-Jun-2020 15:08:21.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.7+10
+18-Jun-2020 15:08:21.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jun-2020 15:08:21.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 15:08:21.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 15:08:21.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jun-2020 15:08:21.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jun-2020 15:08:21.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jun-2020 15:08:21.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+18-Jun-2020 15:08:21.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jun-2020 15:08:21.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jun-2020 15:08:21.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jun-2020 15:08:21.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jun-2020 15:08:21.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jun-2020 15:08:21.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 15:08:21.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 15:08:21.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+18-Jun-2020 15:08:21.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Jun-2020 15:08:21.845 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jun-2020 15:08:21.868 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jun-2020 15:08:21.880 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 723 ms
+18-Jun-2020 15:08:21.928 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jun-2020 15:08:21.929 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+18-Jun-2020 15:08:21.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+18-Jun-2020 15:08:22.272 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [323] ms
+18-Jun-2020 15:08:22.273 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+18-Jun-2020 15:08:22.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [396] ms
+18-Jun-2020 15:08:22.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+18-Jun-2020 15:08:22.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [20] ms
+18-Jun-2020 15:08:22.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+18-Jun-2020 15:08:22.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [13] ms
+18-Jun-2020 15:08:22.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+18-Jun-2020 15:08:22.719 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [17] ms
+18-Jun-2020 15:08:22.722 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jun-2020 15:08:22.727 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 847 ms
+18-Jun-2020 20:45:07.960 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jun-2020 20:45:07.960 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jun-2020 20:45:07.968 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jun-2020 20:45:08.006 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jun-2020 20:45:08.008 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jun-2020 21:48:39.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+18-Jun-2020 21:48:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+18-Jun-2020 21:48:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+18-Jun-2020 21:48:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jun-2020 21:48:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.7.2-arch1-1
+18-Jun-2020 21:48:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jun-2020 21:48:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk
+18-Jun-2020 21:48:39.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.7+10
+18-Jun-2020 21:48:39.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jun-2020 21:48:39.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 21:48:39.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 21:48:39.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jun-2020 21:48:39.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jun-2020 21:48:39.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jun-2020 21:48:39.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+18-Jun-2020 21:48:39.065 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Jun-2020 21:48:39.111 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jun-2020 21:48:39.124 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Jun-2020 21:48:39.141 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 411 ms
+18-Jun-2020 21:48:39.191 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jun-2020 21:48:39.191 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+18-Jun-2020 21:48:39.200 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+18-Jun-2020 21:48:39.447 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [247] ms
+18-Jun-2020 21:48:39.448 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+18-Jun-2020 21:48:39.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [268] ms
+18-Jun-2020 21:48:39.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+18-Jun-2020 21:48:39.748 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [32] ms
+18-Jun-2020 21:48:39.748 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+18-Jun-2020 21:48:39.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [21] ms
+18-Jun-2020 21:48:39.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+18-Jun-2020 21:48:39.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [27] ms
+18-Jun-2020 21:48:39.801 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jun-2020 21:48:39.811 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 669 ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jun-2020 18:07:08.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+19-Jun-2020 18:07:08.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+19-Jun-2020 18:07:08.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+19-Jun-2020 18:07:08.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jun-2020 18:07:08.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.7.2-arch1-1
+19-Jun-2020 18:07:08.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jun-2020 18:07:08.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk
+19-Jun-2020 18:07:08.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.7+10
+19-Jun-2020 18:07:08.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jun-2020 18:07:08.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+19-Jun-2020 18:07:08.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+19-Jun-2020 18:07:08.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jun-2020 18:07:08.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jun-2020 18:07:08.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jun-2020 18:07:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+19-Jun-2020 18:07:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jun-2020 18:07:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jun-2020 18:07:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jun-2020 18:07:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jun-2020 18:07:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jun-2020 18:07:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+19-Jun-2020 18:07:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+19-Jun-2020 18:07:08.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+19-Jun-2020 18:07:08.573 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Jun-2020 18:07:08.626 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jun-2020 18:07:08.651 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jun-2020 18:07:08.661 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 800 ms
+19-Jun-2020 18:07:08.712 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jun-2020 18:07:08.712 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+19-Jun-2020 18:07:08.724 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+19-Jun-2020 18:07:08.977 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [253] ms
+19-Jun-2020 18:07:08.978 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+19-Jun-2020 18:07:09.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [272] ms
+19-Jun-2020 18:07:09.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+19-Jun-2020 18:07:09.274 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [24] ms
+19-Jun-2020 18:07:09.275 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+19-Jun-2020 18:07:09.293 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [18] ms
+19-Jun-2020 18:07:09.293 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+19-Jun-2020 18:07:09.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [18] ms
+19-Jun-2020 18:07:09.315 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jun-2020 18:07:09.321 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 659 ms
+19-Jun-2020 18:49:52.756 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jun-2020 18:49:52.756 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jun-2020 18:49:52.763 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jun-2020 18:49:52.797 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jun-2020 18:49:52.799 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Jun-2020 00:17:18.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+20-Jun-2020 00:17:18.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+20-Jun-2020 00:17:18.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+20-Jun-2020 00:17:18.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Jun-2020 00:17:18.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.7.3-arch1-1
+20-Jun-2020 00:17:18.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Jun-2020 00:17:18.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk
+20-Jun-2020 00:17:18.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.7+10
+20-Jun-2020 00:17:18.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jun-2020 00:17:18.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zerosharp/.local/share/tomcat/8.5.55
+20-Jun-2020 00:17:18.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zerosharp/.local/share/tomcat/8.5.55
+20-Jun-2020 00:17:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Jun-2020 00:17:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zerosharp/.local/share/tomcat/8.5.55/conf/logging.properties
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zerosharp/.local/share/tomcat/8.5.55
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zerosharp/.local/share/tomcat/8.5.55
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zerosharp/.local/share/tomcat/8.5.55/temp
+20-Jun-2020 00:17:18.096 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Jun-2020 00:17:18.142 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jun-2020 00:17:18.165 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2020 00:17:18.177 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 813 ms
+20-Jun-2020 00:17:18.228 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jun-2020 00:17:18.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+20-Jun-2020 00:17:18.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs]
+20-Jun-2020 00:17:18.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/docs] has finished in [216] ms
+20-Jun-2020 00:17:18.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples]
+20-Jun-2020 00:17:18.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/examples] has finished in [329] ms
+20-Jun-2020 00:17:18.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager]
+20-Jun-2020 00:17:18.810 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/host-manager] has finished in [22] ms
+20-Jun-2020 00:17:18.811 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT]
+20-Jun-2020 00:17:18.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/ROOT] has finished in [13] ms
+20-Jun-2020 00:17:18.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager]
+20-Jun-2020 00:17:18.843 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zerosharp/.local/share/tomcat/8.5.55/webapps/manager] has finished in [19] ms
+20-Jun-2020 00:17:18.847 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jun-2020 00:17:18.854 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 677 ms
